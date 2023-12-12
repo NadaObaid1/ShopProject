@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+
+  <!--fontawsome-->
+  <link rel="stylesheet" href="vendor/css/all.min.css">
+  <!--bootstrap-->
+  <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+
+  <!-- Media qery-->
+  <link rel="stylesheet" href="assets/css/cart.css">
+
+</head>
+
+<body>
+  <div class="top-icon ">
+    <button class="top"><i class="fa-solid fa-angle-up "></i></button>
+  </div>
+
+  <!------------------------------------start navbar------------------------------------->
+  <nav class="fixed-top">
+    <div class="nav-top text-white bg-dark py-1">
+        <div class="container d-flex justify-content-between">
+            <div class="left-content d-flex">
+                <a href="#">Welcome to this amazing theme. Fell free to write:</a>
+                <a id="href1" href="mailto:email@example.com">satine@example.com</a>
+            </div>
+
+            <div class="right-content">
+                <a href="register.html">Register</a>&nbsp; | &nbsp;
+                <a href="login.html">Login</a>  
+
+            </div>
+
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img class="w-100" src="assets/img/logo-dark-img.png" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      homepages
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown" href="products.html" id="navbarDropdown">
+                      products
+                    </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      shop
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      blog
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      lookbook
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  elements
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <div class="cartCounter"> 
+                  <a class="link position-relative" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                 <div class="counter">0</div></div>
+                </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-bars"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              
+               </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</nav>
+<!------------------------------------end navbar------------------------------------->
+
+
+  <!------------------------------------start header-----------------------------------------> 
+  <header class="header d-flex  justify-content-center align-items-center  ">
+    <div class="header-content ">
+      <h1> Cart</h1>
+    </div>
+  </header>
+ <!------------------------------------end footer-----------------------------------------> 
+
+<!------------------------------------start cart-----------------------------------------> 
+  <div class="cart ">
+    <div class="container">
+      <div class="row justify-content-center ">
+        <div class="col-lg-4 ">
+          <div class="icon-shop position-relative "></div>
+        </div>
+        <div class="col-lg-6 ">
+          <div class="content">
+            <div class="p-befor mb-5 text-lg-start text-center">
+              <p class="text-center">Your cart is currently empty.</p>
+              <a  href="products.html" class="btn border border-1 bg-info  px-5 py-2 text-white rounded-3 mt-5 mx-5 fw-bolder" >RETURN TO SHOP</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------------------------------------end footer-----------------------------------------> 
+
+  <!------------------------------------start footer-----------------------------------------> 
+<footer class="footer-09">
+  <div class="container">
+  <div class="row">
+  <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+  <h2 class="footer-heading d-flex">
+  <span class="icon d-flex align-items-center justify-content-center"><i class="ion-logo-ionic"></i></span>
+  SIMPLE
+  </h2>
+  <div class="block-23 mb-3">
+  <ul>
+  <p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</p>
+  <li><span <i class="fa-solid fa-mobile"></i></span><span class="text">1-677-124-44227</span></li>
+  <li><a href="#"><span <i class="fa-solid fa-location-dot"></i></span><span class="text">184 Main Collins Street West 8007</span></a></li>
+  <li><a href="#"><span <i class="fa-solid fa-clock"></i></i></span><span class="text">Mon - Sun 8.00 - 18.00</span></a></li>
+  </ul>
+  </div>
+  </div>
+  <div class="LatestNews col-md-6 col-lg-3 mb-md-0 mb-4">
+  <h2 class="footer-heading d-flex align-items-center"><span class="icon d-flex align-items-center justify-content-center"><i class="ion-ios-list-box"></i></span>Latest News</h2>
+  <div class="block-21 mb-4 d-flex">
+  <a class="img mr-4 rounded" style="background-image: url(images/image_1.jpg);"></a>
+  <div class="text">
+  <h3 class="heading"><a href="#">Writing A Fashion Blog: Beauty & Style</a></h3>
+  <div class="meta">
+  <div class="datee"><a href="#"><span class="icon-calendar"></span>July 31, 2017</a></div>
+  </div>
+  </div>
+  </div>
+  <div class="block-21 mb-4 d-flex">
+  <a class="img mr-4 rounded" style="background-image: url(images/image_2.jpg);"></a>
+  <div class="text">
+  <h3 class="heading"><a href="#">30 Blog Post Ideas For Fashion Bloggers</a></h3>
+  <div class="meta">
+  <div class="datee"><a href="#"><span class="icon-calendar"></span> July 31, 2017</a></div>
+  </div>
+  </div>
+  </div>
+  <div class="block-21 mb-4 d-flex">
+    <a class="img mr-4 rounded" style="background-image: url(images/image_2.jpg);"></a>
+    <div class="text">
+    <h3 class="heading"><a href="#">7 Investments Worth Making Your Blog</a></h3>
+    <div class="meta">
+    <div class="datee"><a href="#"><span class="icon-calendar"></span> July 31, 2017</a></div>
+    </div>
+    </div>
+  </div>
+  <div class="block-21 mb-4 d-flex">
+      <a class="img mr-4 rounded" style="background-image: url(images/image_2.jpg);"></a>
+      <div class="text">
+      <h3 class="heading"><a href="#">How To Start A Blog – Step By Step Guide</a></h3>
+      <div class="meta">
+      <div class="datee"><a href="#"><span class="icon-calendar"></span> July 31, 2017</a></div>
+      </div>
+      </div>
+  </div>
+  </div>
+  <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+  <h2 class="footer-heading d-flex align-items-center"><span class="icon d-flex align-items-center justify-content-center"><i class="ion-ios-document"></i></span>Information</h2>
+  <ul class="list-unstyled">
+  <li><a href="#" class="py-1 d-block">Everyday Gadgets</a></li>
+  <li><a href="#" class="py-1 d-block">Flower Collection</a></li>
+  <li><a href="#" class="py-1 d-block">Furniture</a></li>
+  <li><a href="#" class="py-1 d-block">Nude Collection</a></li>
+  <li><a href="#" class="py-1 d-block">Ready for Beach</a></li>
+  <li><a href="#" class="py-1 d-block">Sandals</a></li>
+  <li><a href="#" class="py-1 d-block">Summer Nude Collection</a></li>
+  <li><a href="#" class="py-1 d-block">Sweets</a></li>
+  <li><a href="#" class="py-1 d-block">Uncategorized</a></li>
+  <li><a href="#" class="py-1 d-block">Variations</a></li>
+  <li><a href="#" class="py-1 d-block">Wedding Rings</a></li>
+  </ul>
+  </div>
+  <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+  <h2 class="footer-heading d-flex align-items-center"><span class="icon d-flex align-items-center justify-content-center"><i class="ion-logo-instagram"></i></span>Instagram</h2>
+  <div class="block-24">
+  <div class="imgs row no-gutters">
+  <div class="col-4 col-md-4 p-1">
+  <a href="#" class="img1" style="background-image: url(assets/img/52020941_553578338471142_8664844690471563020_n.jpg);"></a>
+  </div>
+  <div class="col-4 col-md-4 p-1">
+  <a href="#" class="img2" style="background-image: url(assets/img/52840541_391703608296134_5102168686807771481_n.jpg);"></a>
+  </div>
+  <div class="col-4 col-md-4 p-1">
+  <a href="#" class="img3" style="background-image: url(assets/img/52736722_153235155673905_4790502849599962446_n.jpg);"></a>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="row mt-5 pt-4 border-top">
+  <div class="col-md-6 col-lg-8">
+  <p class="copyright">
+  Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved.</p>
+  </div>
+  <div class="col-md-6 col-lg-4 text-md-right">
+  <p class="copyright">FOLLOW US <i class="ion-ios-heart" aria-hidden="true"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-linkedin"></i><a href="https://colorlib.com" target="_blank"></i></a>
+  </p>
+  </div>
+  </div>
+  </div>
+</footer>
+<!------------------------------------end footer----------------------------------------->
+
+  <!--  Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+<script src="assets/script/scriptProducts.js"></script>
+</body>
+</html>

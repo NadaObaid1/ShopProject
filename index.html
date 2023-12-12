@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satine</title>
+
+    <!--fontawsome-->
+    <link rel="stylesheet" href="vendor/css/all.min.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+    <!--cssfile-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!------------------------------------start navbar------------------------------------->
+  <nav class="fixed-top">
+        <div class="nav-top text-white bg-dark py-1">
+            <div class="container d-flex justify-content-between">
+                <div class="left-content d-flex">
+                    <a href="#">Welcome to this amazing theme. Fell free to write:</a>
+                    <a id="href1" href="mailto:email@example.com">satine@example.com</a>
+                </div>
+
+                <div class="right-content">
+                    <a href="register.html">Register</a>&nbsp; | &nbsp;
+                    <a href="login.html">Login</a>  
+
+                </div>
+
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+              <a class="navbar-brand" href="index.html">
+                <img class="w-100" src="assets/img/logo-dark-img.png" alt="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          homepages
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown" href="products.html" id="navbarDropdown">
+                          products
+                        </a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          shop
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          blog
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          lookbook
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      elements
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <div class="cartCounter"> 
+                      <a class="link position-relative" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                     <div class="counter">0</div></div>
+                    </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="fa-solid fa-bars"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  
+                   </div>
+                </ul>
+              </div>
+            </div>
+          </nav>
+  </nav>
+  <!------------------------------------end navbar------------------------------------->
+  
+  <!------------------------------------start header------------------------------------->
+  <header class="header" id="header">
+    <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-item-next active carousel-item-start">
+          <img class="w-100" src="assets/img/slide11.png">
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <p><a class="btn1 btn-lg" href="#">shopping with style</a></p>
+              <h1>brethtaking </h1>
+              <p>Some representative placeholder content for the first slide of the carousel.</p>
+              <p><a class="btn2 btn-lg" href="#">shop now<a<span><i class="fa-solid fa-arrow-right"></i></span></a></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-item-next carousel-item-start">
+         <img class="w-100" src="assets/img/slide2.png">
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <p><a class="btn1 btn-lg" href="#">shopping with style</a></p>
+              <h1>like a dream</h1>
+              <p>Some representative placeholder content for the second slide of the carousel.</p>
+              <p><a class="btn2 btn-lg" href="#">shop now<a<span><i class="fa-solid fa-arrow-right"></i></span></a></a></p>
+            </div>
+          </div>
+        </div>
+
+         <div class="carousel-item carousel-item-next carousel-item-start">
+         <img class="w-100" src="assets/img/silde3.png">
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <p><a class="btn1 btn-lg" href="#">shopping with style</a></p>
+              <h1>unmistakable</h1>
+              <p>Some representative placeholder content for the second slide of the carousel.</p>
+              <p><a class="btn2 btn-lg" href="#">shop now<a<span><i class="fa-solid fa-arrow-right"></i></span></a></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+  <!------------------------------------end header--------------------------------------->
+
+
+  <!------------------------------------start view---------------------------------------->
+  <section>
+    <div class="container">
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="all-tab-pane" role="tabpanel" aria-labelledby="all-tab" tabindex="0">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="product-item position-relative">
+                <img src="assets/img/blog-post-5-768x467.jpg" class="w-100" alt="">
+                <div class="info p-3 d-flex justify-content-between align-items-center">
+                  <div class="descrption">
+                    <h6>JULY 28, 2017</h6>
+                    <h3>DAY TO NIGHT SHIRT</h3>
+                    <p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam</p>
+                    <p><a href="#">read more<a<span><i class="fa-solid fa-arrow-right"></i></span></a></a></p>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <div class="col-md-4">
+              <div class="product-item position-relative">
+                <img src="assets/img/blog-post-6.jpg" class="w-100" alt="">
+                <div class="info p-3 d-flex justify-content-between align-items-center">
+                  <div class="descrption">
+                    <h6>JULY 28, 2017</h6>
+                    <h3>FIND PERFECT OUTFIT IDEAS</h3>
+                    <p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam</p>
+                    <p><a href="#">read more<a<span><i class="fa-solid fa-arrow-right"></i></span></a></a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="product-item position-relative">
+                <img src="assets/img/blog-post-7-1024x622.jpg" class="w-100" alt="">
+                <div class="info p-3 d-flex justify-content-between align-items-center">
+                  <div class="descrption">
+                    <h6>JULY 28, 2017</h6>
+                    <h3>TRENDY BLOGGER FASHION</h3>
+                    <p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam</p>
+                    <p><a href="#">read more<a<span><i class="fa-solid fa-arrow-right"></i></span></a></a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!------------------------------------end view------------------------------------------->
+
+<!------------------------------------start portfolio-------------------------------------->
+<section class="portfolio my-5 py-5" id="portfolio">
+  <div class="container">
+    <div class="d-flex justify-content-center">
+      <div class="title">
+       <a class="portbtn2 btn-lg" href="#">BEST FASHION DEALS</a>
+       <h2>NEW SUMMER COLLECTION</h2>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper</p>
+     </div></div>
+     <div class="tab-content pt-5" id="myTabContent">
+      <div class="tab-pane fade show active" id="all-tab-pane" role="tabpanel" aria-labelledby="all-tab" tabindex="0">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="portfolio-item position-relative">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <div class="add-cart">
+                <span>ADD TO CART </span> <span><i class="fa-solid fa-plus"></i></span>
+                </div>
+              </div>
+              <img src="assets/img/h1-product-1-600x723.jpg" class="w-100" alt="">
+              <div class="info p-1 d-flex justify-content-between align-items-center">
+                <div class="desc">
+                  <p>Quicklook<span><i class="fas fa-eye"></i></span></p>
+                </div>
+                <div class="desc">
+                  <p>Wishlist<span><i class="fa-regular fa-heart"></i></span></p>
+                </div>
+              </div>
+            </div>
+            <div class="info2">
+              <h5 class="title m-0">LEATHER PURSE</h5>
+              <p class="price m-0">$60</p>
+            </div>
+          </div> 
+          <div class="col-md-3">
+            <div class="portfolio-item position-relative">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <div class="add-cart">
+                <span>ADD TO CART</span><span><i class="fa-solid fa-plus"></i></span>
+              </div></div>
+              <img src="assets/img/h1-product-2-600x723.jpg" class="w-100" alt="">
+              <div class="info p-1 d-flex justify-content-between align-items-center">
+                <div class="desc">
+                  <p>Quicklook<span><i class="fas fa-eye"></i></span></p>
+                </div>
+                <div class="desc">
+                    <p>Wishlist<span><i class="fa-regular fa-heart"></i></span></p>
+                </div>
+              </div>
+            </div>
+            <div class="info2">
+              <h5 class="m-0">RAINBOW SUNGLASSES</h5>
+              <p class="m-0">$45</p>
+            </div>
+          </div> 
+          <div class="col-md-3">
+            <div class="portfolio-item position-relative">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <div class="add-cart">
+                <span>ADD TO CART</span><span><i class="fa-solid fa-plus"></i></span>
+              </div></div>
+              <img src="assets/img/h1-product-3-600x723.jpg" class="w-100" alt="">
+              <div class="info p-1 d-flex justify-content-between align-items-center">
+                <div class="desc">
+                  <p>Quicklook<span><i class="fas fa-eye"></i></span></p>
+                </div>
+                <div class="desc">
+                    <p>Wishlist<span><i class="fa-regular fa-heart"></i></span></p>
+                </div>
+              </div>
+            </div>
+            <div class="info2">
+              <h5 class="m-0">LEATHER SANDALS</h5>
+              <p class="m-0">$120</p>
+            </div>
+          </div> 
+          <div class="col-md-3">
+            <div class="portfolio-item position-relative">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <div class="add-cart">
+               <span>ADD TO CART</span><span><i class="fa-solid fa-plus"></i></span>
+              </div></div>
+              <img src="assets/img/h1-product-5-600x723.jpg" class="w-100" alt="">
+              <div class="info p-1 d-flex justify-content-between align-items-center">
+                <div class="desc">
+                  <p>Quicklook<span><i class="fas fa-eye"></i></span></p>
+                </div>
+                <div class="desc">
+                    <p>Wishlist<span><i class="fa-regular fa-heart"></i></span></p>
+                </div>
+              </div>
+            </div>
+            <div class="info2">
+              <h5 class="m-0">LACE T-SHIRT</h5>
+              <p class="m-0">$40</p>
+            </div>
+          </div> 
+        </div>
+      </div>  
+  </div>
+  <div class="tab-content pt-5" id="myTabContent">
+      <div class="tab-pane fade show active" id="all-tab-pane" role="tabpanel" aria-labelledby="all-tab" tabindex="0">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="portfolio-item position-relative">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <div class="add-cart">
+                <span>ADD TO CART</span><span><i class="fa-solid fa-plus"></i></span>
+              </div></div>
+              <img src="assets/img/h1-product-4-600x723.jpg" class="w-100" alt="">
+              <div class="info p-1 d-flex justify-content-between align-items-center">
+                <div class="desc">
+                  <p>Quicklook<span><i class="fas fa-eye"></i></span></p>
+                </div>
+                <div class="desc">
+                    <p>Wishlist<span><i class="fa-regular fa-heart"></i></span></p>
+                </div>
+              </div>
+            </div>
+            <div class="info2">
+              <h5 class="m-0">FLOWER T-SHIRT</h5>
+              <p class="m-0">$80</p>
+            </div>
+          </div> 
+          <div class="col-md-3">
+            <div class="portfolio-item position-relative">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <div class="add-cart">
+                <span>ADD TO CART</span><span><i class="fa-solid fa-plus"></i></span>
+              </div></div>
+              <img src="assets/img/h1-product-6-600x723.jpg" class="w-100" alt="">
+              <div class="info p-1 d-flex justify-content-between align-items-center">
+                <div class="desc">
+                  <p>Quicklook<span><i class="fas fa-eye"></i></span></p>
+                </div>
+                <div class="desc">
+                    <p>Wishlist<span><i class="fa-regular fa-heart"></i></span></p>
+                </div>
+              </div>
+            </div>
+            <div class="info2">
+              <h5 class="m-0">BODYSUIT WITH LACE</h5>
+              <p class="m-0"><del>$120</del>$60</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="portfolio-item position-relative">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <div class="add-cart">
+                <span>ADD TO CART</span><span><i class="fa-solid fa-plus"></i></span>
+              </div></div>
+              <img src="assets/img/h1-product-7-600x723.jpg" class="w-100" alt="">
+              <div class="info p-1 d-flex justify-content-between align-items-center">
+                <div class="desc">
+                  <p>Quicklook<span><i class="fas fa-eye"></i></span></p>
+                </div>
+                <div class="desc">
+                    <p>Wishlist<span><i class="fa-regular fa-heart"></i></span></p>
+                </div>
+              </div>
+            </div>
+            <div class="info2">
+              <h5 class="m-0">CITY BAG</h5>
+              <p class="m-0">$80</p>
+            </div>
+          </div> 
+          <div class="col-md-3">
+            <div class="portfolio-item position-relative">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <div class="add-cart">
+                <span>ADD TO CART</span><span><i class="fa-solid fa-plus"></i></span>
+              </div></div>
+              <img src="assets/img/h1-product-8-600x723.jpg" class="w-100" alt="">
+              <div class="info p-1 d-flex justify-content-between align-items-center">
+                <div class="desc">
+                  <p>Quicklook<span><i class="fas fa-eye"></i></span></p>
+                </div>
+                <div class="desc">
+                    <p>Wishlist<span><i class="fa-regular fa-heart"></i></span></p>
+                </div>
+              </div>
+            </div>
+            <div class="info2">
+              <h5 class="m-0">FEATHER EARRINGS</h5>
+              <p class="m-0">$25</p>
+            </div>
+          </div>  
+        </div>
+      </div>
+  </div>
+</div>
+</section>
+<!------------------------------------end portfolio----------------------------------------->
+
+
+<!------------------------------------start image page--------------------------------------->
+  <div class="image">
+    <img src="assets/img/h4-img-1.png">
+    <p id="pargraph">|</p>
+    <h2>GORGEOUS FASHION COLLECTION FOR THE</br>
+    AWESOME 2017 SUMMER SEASON OF THE</br> CANNES FESTIVAL</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+    <p id="pargraph">|</p>
+  </div>
+<!------------------------------------end image page----------------------------------------->
+<!------------------------------------start about page----------------------------------------->
+<section class="about my-5 py-5">
+  <div class="container">
+    <div class="d-flex justify-content-center">
+      <div class="title">
+       <h2>MEET OUR TEAM OF EXPERTS</h2>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper</p>
+    </div></div>
+    <section class="tab-content pt-5" id="myTabContent">
+      <div class="tab-pane fade show active" id="all-tab-pane" role="tabpanel" aria-labelledby="all-tab" tabindex="0">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="about-item">
+              <div class="overlay-about d-flex justify-content-center align-items-center">
+                <img src="assets/img/team-member-1.png" class="w-100" alt="">
+              </div>
+              <div class="info-about p-2 d-flex justify-content-between align-items-center">
+                <div class="descrption-about">
+                  <h1>SELENE LEWIS</h1>
+                  <h5>DESIGNER</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing. Nullam blandit hendrerit faucibus.</p>
+                  <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                   <i class="fa-brands fa-linkedin"></i> 
+                  </div> 
+              </div>
+            </div>
+          </div> 
+          </div>
+          <div class="col-md-4">
+            <div class="about-item">
+              <div class="overlay-about d-flex justify-content-center align-items-center">
+                <img src="assets/img/team-member-2.png" class="w-100" alt="">
+              </div>
+              <div class="infoa-bout p-2 d-flex justify-content-between align-items-center">
+                <div class="descrption-about">
+                  <h1>STANLEY CLARK</h1>
+                  <h5>MANAGER</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing. Nullam blandit hendrerit faucibus.</p>
+                  <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                   <i class="fa-brands fa-linkedin"></i> 
+                  </div> </div>
+                </div> 
+              </div>
+          </div> 
+          <div class="col-md-4">
+            <div class="about-item">
+              <div class="overlay-about d-flex justify-content-center align-items-center">
+                <img src="assets/img/team-member-3.png" class="w-100" alt="">
+              </div>
+              <div class="infoa-bout p-2 d-flex justify-content-between align-items-center">
+                <div class="descrption-about">
+                  <h1>NANCY MORRIS</h1>
+                  <h5>PHOTOGRAPHER</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing. Nullam blandit hendrerit faucibus.</p>
+                  <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                   <i class="fa-brands fa-linkedin"></i> 
+                  </div> </div>
+                </div> 
+              </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    </div>
+</section>
+<!------------------------------------end about page----------------------------------------->
+
+<!------------------------------------start items page----------------------------------------->
+<section class="items my-5 py-5" id="items">
+  <div class="container">
+    <div class="tab-content pt-5" id="myTabContent">
+      <div class="tab-pane fade show active" id="all-tab-pane" role="tabpanel" aria-labelledby="all-tab" tabindex="0">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="items-item position-relative">
+              <div class="overlay-items">
+                <i class="fas fa-shopping-bag"></i>
+                <h1>NEW TRENDY STORIES</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo.</p>
+              </div>
+            </div>
+          </div> 
+          <div class="col-md-4">
+            <div class="items-item position-relative">
+              <div class="overlay-items">
+                <i class="fa-sharp fa-solid fa-heart"></i>
+                <h1>IMAGINE AND CREATE</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo.</p>
+              </div>
+            </div>
+          </div> 
+          <div class="col-md-4">
+            <div class="items-item position-relative">
+              <div class="overlay-items">
+                <i class="fa-solid fa-anchor"></i>
+                <h1>100% RESPONSIVE</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo.</p>
+              </div>
+            </div>
+          </div> 
+          </div> 
+        </div>
+      </div>  
+    <div class="tab-content pt-5" id="myTabContent">
+      <div class="tab-pane fade show active" id="all-tab-pane" role="tabpanel" aria-labelledby="all-tab" tabindex="0">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="items-item position-relative">
+              <div class="overlay-items">
+                <i class="fa-solid fa-gift"></i>
+                <h1>INFOGRAPHIC ELEMENTS</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo.</p>
+              </div>
+            </div>
+          </div> 
+          <div class="col-md-4">
+            <div class="items-item position-relative">
+              <div class="overlay-items">
+                <i class="fa-solid fa-map-pin"></i>
+                <h1>MEET THE CLIENTS</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo.</p>
+              </div>
+            </div>
+          </div> 
+          <div class="col-md-4">
+            <div class="items-item position-relative">
+              <div class="overlay-items">
+                <i class="fa-solid fa-wallet"></i>
+                <h1>DESIGN EVERYTHING</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo.</p>
+              </div>
+            </div>
+          </div> 
+          </div> 
+        </div>
+      </div>
+    </div>  
+</section>
+<!------------------------------------end items page----------------------------------------->
+
+<!------------------------------------start footer-----------------------------------------> 
+<footer class="footer-09">
+  <div class="container">
+  <div class="row">
+  <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+  <h2 class="footer-heading d-flex">
+  <span class="icon d-flex align-items-center justify-content-center"><i class="ion-logo-ionic"></i></span>
+  SIMPLE
+  </h2>
+  <div class="block-23 mb-3">
+  <ul>
+  <p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</p>
+  <li><span <i class="fa-solid fa-mobile"></i></span><span class="text">1-677-124-44227</span></li>
+  <li><a href="#"><span <i class="fa-solid fa-location-dot"></i></span><span class="text">184 Main Collins Street West 8007</span></a></li>
+  <li><a href="#"><span <i class="fa-solid fa-clock"></i></i></span><span class="text">Mon - Sun 8.00 - 18.00</span></a></li>
+  </ul>
+  </div>
+  </div>
+  <div class="LatestNews col-md-6 col-lg-3 mb-md-0 mb-4">
+  <h2 class="footer-heading d-flex align-items-center"><span class="icon d-flex align-items-center justify-content-center"><i class="ion-ios-list-box"></i></span>Latest News</h2>
+  <div class="block-21 mb-4 d-flex">
+  <a class="img mr-4 rounded" style="background-image: url(images/image_1.jpg);"></a>
+  <div class="text">
+  <h3 class="heading"><a href="#">Writing A Fashion Blog: Beauty & Style</a></h3>
+  <div class="meta">
+  <div class="datee"><a href="#"><span class="icon-calendar"></span>July 31, 2017</a></div>
+  </div>
+  </div>
+  </div>
+  <div class="block-21 mb-4 d-flex">
+  <a class="img mr-4 rounded" style="background-image: url(images/image_2.jpg);"></a>
+  <div class="text">
+  <h3 class="heading"><a href="#">30 Blog Post Ideas For Fashion Bloggers</a></h3>
+  <div class="meta">
+  <div class="datee"><a href="#"><span class="icon-calendar"></span> July 31, 2017</a></div>
+  </div>
+  </div>
+  </div>
+  <div class="block-21 mb-4 d-flex">
+    <a class="img mr-4 rounded" style="background-image: url(images/image_2.jpg);"></a>
+    <div class="text">
+    <h3 class="heading"><a href="#">7 Investments Worth Making Your Blog</a></h3>
+    <div class="meta">
+    <div class="datee"><a href="#"><span class="icon-calendar"></span> July 31, 2017</a></div>
+    </div>
+    </div>
+  </div>
+  <div class="block-21 mb-4 d-flex">
+      <a class="img mr-4 rounded" style="background-image: url(images/image_2.jpg);"></a>
+      <div class="text">
+      <h3 class="heading"><a href="#">How To Start A Blog – Step By Step Guide</a></h3>
+      <div class="meta">
+      <div class="datee"><a href="#"><span class="icon-calendar"></span> July 31, 2017</a></div>
+      </div>
+      </div>
+  </div>
+  </div>
+  <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+  <h2 class="footer-heading d-flex align-items-center"><span class="icon d-flex align-items-center justify-content-center"><i class="ion-ios-document"></i></span>Information</h2>
+  <ul class="list-unstyled">
+  <li><a href="#" class="py-1 d-block">Everyday Gadgets</a></li>
+  <li><a href="#" class="py-1 d-block">Flower Collection</a></li>
+  <li><a href="#" class="py-1 d-block">Furniture</a></li>
+  <li><a href="#" class="py-1 d-block">Nude Collection</a></li>
+  <li><a href="#" class="py-1 d-block">Ready for Beach</a></li>
+  <li><a href="#" class="py-1 d-block">Sandals</a></li>
+  <li><a href="#" class="py-1 d-block">Summer Nude Collection</a></li>
+  <li><a href="#" class="py-1 d-block">Sweets</a></li>
+  <li><a href="#" class="py-1 d-block">Uncategorized</a></li>
+  <li><a href="#" class="py-1 d-block">Variations</a></li>
+  <li><a href="#" class="py-1 d-block">Wedding Rings</a></li>
+  </ul>
+  </div>
+  <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+  <h2 class="footer-heading d-flex align-items-center"><span class="icon d-flex align-items-center justify-content-center"><i class="ion-logo-instagram"></i></span>Instagram</h2>
+  <div class="block-24">
+  <div class="imgs row no-gutters">
+  <div class="col-4 col-md-4 p-1">
+  <a href="#" class="img1" style="background-image: url(assets/img/52020941_553578338471142_8664844690471563020_n.jpg);"></a>
+  </div>
+  <div class="col-4 col-md-4 p-1">
+  <a href="#" class="img2" style="background-image: url(assets/img/52840541_391703608296134_5102168686807771481_n.jpg);"></a>
+  </div>
+  <div class="col-4 col-md-4 p-1">
+  <a href="#" class="img3" style="background-image: url(assets/img/52736722_153235155673905_4790502849599962446_n.jpg);"></a>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="row mt-5 pt-4 border-top">
+  <div class="col-md-6 col-lg-8">
+  <p class="copyright">
+  Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved.</p>
+  </div>
+  <div class="col-md-6 col-lg-4 text-md-right">
+  <p class="copyright">FOLLOW US <i class="ion-ios-heart" aria-hidden="true"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-linkedin"></i><a href="https://colorlib.com" target="_blank"></i></a>
+  </p>
+  </div>
+  </div>
+  </div>
+</footer>
+<!------------------------------------end footer----------------------------------------->
+
+<script src="vendor/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/scriptProducts.js"></script>
+</body>
+</html>
